@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="28" height="18" tilewidth="64" tileheight="64" infinite="0" nextlayerid="12" nextobjectid="37">
+ <editorsettings>
+  <export target="../tiledmap.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="tilemap" tilewidth="64" tileheight="64" tilecount="324" columns="18">
+  <image source="../../../img/kenney_racingpack_updated/Spritesheets/spritesheet_tiles2small.png" width="1152" height="1152"/>
+ </tileset>
+ <tileset firstgid="325" name="object" tilewidth="224" tileheight="235" tilecount="39" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="39">
+   <image width="107" height="106" source="../../../img/kenney_racingpack_updated/PNG/Objects/tree_large.png"/>
+  </tile>
+  <tile id="40">
+   <image width="70" height="70" source="../../../img/kenney_racingpack_updated/PNG/Objects/tree_small.png"/>
+  </tile>
+  <tile id="41">
+   <image width="224" height="112" source="../../../img/kenney_racingpack_updated/PNG/Objects/tribune_empty.png"/>
+  </tile>
+  <tile id="42">
+   <image width="224" height="112" source="../../../img/kenney_racingpack_updated/PNG/Objects/tribune_full.png"/>
+  </tile>
+  <tile id="43">
+   <image width="224" height="72" source="../../../img/kenney_racingpack_updated/PNG/Objects/tribune_overhang_red.png"/>
+  </tile>
+  <tile id="44">
+   <image width="224" height="72" source="../../../img/kenney_racingpack_updated/PNG/Objects/tribune_overhang_striped.png"/>
+  </tile>
+  <tile id="45">
+   <image width="82" height="49" source="../../../img/kenney_racingpack_updated/PNG/Objects/arrow_white.png"/>
+  </tile>
+  <tile id="46">
+   <image width="82" height="49" source="../../../img/kenney_racingpack_updated/PNG/Objects/arrow_yellow.png"/>
+  </tile>
+  <tile id="47">
+   <image width="28" height="28" source="../../../img/kenney_racingpack_updated/PNG/Objects/barrel_blue.png"/>
+  </tile>
+  <tile id="48">
+   <image width="35" height="24" source="../../../img/kenney_racingpack_updated/PNG/Objects/barrel_blue_down.png"/>
+  </tile>
+  <tile id="49">
+   <image width="28" height="28" source="../../../img/kenney_racingpack_updated/PNG/Objects/barrel_red.png"/>
+  </tile>
+  <tile id="50">
+   <image width="35" height="24" source="../../../img/kenney_racingpack_updated/PNG/Objects/barrel_red_down.png"/>
+  </tile>
+  <tile id="51">
+   <image width="105" height="31" source="../../../img/kenney_racingpack_updated/PNG/Objects/barrier_red.png"/>
+  </tile>
+  <tile id="52">
+   <image width="105" height="31" source="../../../img/kenney_racingpack_updated/PNG/Objects/barrier_red_race.png"/>
+  </tile>
+  <tile id="53">
+   <image width="105" height="31" source="../../../img/kenney_racingpack_updated/PNG/Objects/barrier_white.png"/>
+  </tile>
+  <tile id="54">
+   <image width="105" height="31" source="../../../img/kenney_racingpack_updated/PNG/Objects/barrier_white_race.png"/>
+  </tile>
+  <tile id="55">
+   <image width="23" height="22" source="../../../img/kenney_racingpack_updated/PNG/Objects/cone_down.png"/>
+  </tile>
+  <tile id="56">
+   <image width="22" height="22" source="../../../img/kenney_racingpack_updated/PNG/Objects/cone_straight.png"/>
+  </tile>
+  <tile id="57">
+   <image width="49" height="118" source="../../../img/kenney_racingpack_updated/PNG/Objects/light_white.png"/>
+  </tile>
+  <tile id="58">
+   <image width="98" height="235" source="../../../img/kenney_racingpack_updated/PNG/Objects/light_yellow.png"/>
+  </tile>
+  <tile id="59">
+   <image width="80" height="32" source="../../../img/kenney_racingpack_updated/PNG/Objects/lights.png"/>
+  </tile>
+  <tile id="60">
+   <image width="54" height="47" source="../../../img/kenney_racingpack_updated/PNG/Objects/oil.png"/>
+  </tile>
+  <tile id="61">
+   <image width="44" height="36" source="../../../img/kenney_racingpack_updated/PNG/Objects/rock1.png"/>
+  </tile>
+  <tile id="62">
+   <image width="36" height="34" source="../../../img/kenney_racingpack_updated/PNG/Objects/rock2.png"/>
+  </tile>
+  <tile id="63">
+   <image width="44" height="34" source="../../../img/kenney_racingpack_updated/PNG/Objects/rock3.png"/>
+  </tile>
+  <tile id="64">
+   <image width="30" height="96" source="../../../img/kenney_racingpack_updated/PNG/Objects/skidmark_long_1.png"/>
+  </tile>
+  <tile id="65">
+   <image width="30" height="96" source="../../../img/kenney_racingpack_updated/PNG/Objects/skidmark_long_2.png"/>
+  </tile>
+  <tile id="66">
+   <image width="76" height="192" source="../../../img/kenney_racingpack_updated/PNG/Objects/skidmark_long_3.png"/>
+  </tile>
+  <tile id="67">
+   <image width="30" height="8" source="../../../img/kenney_racingpack_updated/PNG/Objects/skidmark_short_1.png"/>
+  </tile>
+  <tile id="68">
+   <image width="30" height="8" source="../../../img/kenney_racingpack_updated/PNG/Objects/skidmark_short_2.png"/>
+  </tile>
+  <tile id="69">
+   <image width="38" height="8" source="../../../img/kenney_racingpack_updated/PNG/Objects/skidmark_short_3.png"/>
+  </tile>
+  <tile id="70">
+   <image width="64" height="64" source="../../../img/kenney_racingpack_updated/PNG/Objects/tent_blue.png"/>
+  </tile>
+  <tile id="71">
+   <image width="128" height="128" source="../../../img/kenney_racingpack_updated/PNG/Objects/tent_blue_large.png"/>
+  </tile>
+  <tile id="72">
+   <image width="64" height="64" source="../../../img/kenney_racingpack_updated/PNG/Objects/tent_red.png"/>
+  </tile>
+  <tile id="73">
+   <image width="128" height="128" source="../../../img/kenney_racingpack_updated/PNG/Objects/tent_red_large.png"/>
+  </tile>
+  <tile id="74">
+   <image width="28" height="28" source="../../../img/kenney_racingpack_updated/PNG/Objects/tires_red.png"/>
+  </tile>
+  <tile id="75">
+   <image width="28" height="28" source="../../../img/kenney_racingpack_updated/PNG/Objects/tires_red_alt.png"/>
+  </tile>
+  <tile id="76">
+   <image width="28" height="28" source="../../../img/kenney_racingpack_updated/PNG/Objects/tires_white.png"/>
+  </tile>
+  <tile id="77">
+   <image width="28" height="28" source="../../../img/kenney_racingpack_updated/PNG/Objects/tires_white_alt.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="grass" width="28" height="18" locked="1">
+  <data encoding="csv">
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,
+49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49
+</data>
+ </layer>
+ <layer id="2" name="road" width="28" height="18" locked="1">
+  <data encoding="csv">
+0,0,0,150,186,186,186,186,186,186,186,186,186,186,186,132,0,0,0,0,0,0,0,0,0,0,0,0,
+0,150,186,76,185,185,185,185,185,185,185,185,185,185,185,94,186,132,0,0,0,150,186,186,186,186,132,0,
+0,203,185,185,185,185,185,185,185,185,185,185,185,185,185,185,185,167,0,0,150,185,185,185,185,185,167,0,
+0,203,185,185,95,184,184,184,184,77,95,184,184,184,184,77,185,167,0,150,185,185,185,185,185,185,167,0,
+0,203,185,185,167,0,0,0,0,0,0,0,0,0,0,203,185,94,186,76,185,185,95,77,185,185,167,0,
+0,203,185,185,167,0,0,0,0,0,0,0,0,0,0,112,185,185,185,185,185,185,58,203,185,185,167,0,
+0,203,185,185,94,186,132,0,0,0,0,0,0,0,0,111,93,184,77,185,95,75,57,203,185,185,167,0,
+0,149,184,77,185,185,94,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,203,185,185,167,0,
+0,0,0,203,185,185,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,203,185,185,167,0,
+0,0,0,203,185,185,167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,203,185,185,167,0,
+0,0,0,203,185,185,167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,203,185,185,167,0,
+0,0,0,308,290,290,272,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,203,185,185,167,0,
+0,0,0,203,185,185,167,0,0,0,0,0,0,0,0,150,186,186,186,186,76,185,94,76,185,185,167,0,
+0,0,0,203,185,185,94,186,186,186,186,186,186,186,186,76,185,185,185,185,185,185,185,185,185,185,167,0,
+0,0,0,203,185,185,185,185,185,185,185,185,185,185,185,185,185,185,185,185,185,185,185,185,185,185,167,0,
+0,0,0,112,185,185,185,185,185,185,185,185,185,185,185,185,185,95,184,184,184,184,184,184,184,184,131,0,
+0,0,0,111,93,184,184,184,184,184,184,184,184,184,184,184,184,131,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="sand" width="28" height="18" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,117,102,80,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,116,98,99,81,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,102,0,0,0,0,0,117,102,80,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,116,98,99,81,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,117,102,80,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="ground" width="28" height="18" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,89,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,89,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,89,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,72,72,285,267,103,282,282,282,85,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,70,70,284,266,31,281,263,199,67,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,31,145,0,181,67,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,31,127,12,109,67,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,13,210,210,210,318,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="collisions" locked="1">
+  <object id="1" name="tree_large" gid="364" x="843.364" y="360.939" width="107" height="106"/>
+  <object id="2" name="tree_large" gid="364" x="657" y="637" width="107" height="106"/>
+  <object id="3" name="tree_large" gid="364" x="469" y="455" width="107" height="106"/>
+  <object id="4" name="tree_large" gid="364" x="9" y="617" width="107" height="106"/>
+  <object id="5" name="tree_large" gid="364" x="1159" y="185" width="107" height="106"/>
+  <object id="8" name="tribune_full" gid="367" x="156" y="864" width="224" height="112" rotation="-90"/>
+  <object id="10" name="tribune_empty" gid="366" x="156" y="1090" width="224" height="112" rotation="-90"/>
+  <object id="11" name="tree_large" gid="364" x="464.682" y="831.848" width="107" height="106"/>
+  <object id="12" name="tree_large" gid="364" x="358.621" y="350.03" width="107" height="106"/>
+  <object id="13" name="tree_large" gid="364" x="537.409" y="807.606" width="107" height="106"/>
+  <object id="14" name="tree_large" gid="364" x="485.894" y="734.879" width="107" height="106"/>
+  <object id="31" name="tree_large" gid="364" x="773.773" y="368.212" width="107" height="106"/>
+  <object id="32" name="tree_large" gid="364" x="1340.44" y="543.97" width="107" height="106"/>
+  <object id="33" name="tree_large" gid="364" x="1373.77" y="619.727" width="107" height="106"/>
+  <object id="34" name="tree_large" gid="364" x="1128.32" y="759.121" width="107" height="106"/>
+  <object id="35" name="tent_red" gid="397" x="771.636" y="826.303" width="64" height="64"/>
+  <object id="36" name="tent_red" gid="397" x="836" y="826.667" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="6" name="oils" locked="1">
+  <object id="15" name="oil" gid="385" x="245.727" y="117.939" width="54" height="47"/>
+  <object id="17" name="oil" gid="385" x="685.121" y="943.167" width="54" height="47"/>
+  <object id="18" name="oil" gid="385" x="1360.88" y="397.712" width="54" height="47"/>
+ </objectgroup>
+ <objectgroup id="7" name="arrows" locked="1">
+  <object id="19" name="arrow_white" gid="370" x="639.848" y="86.697" width="82" height="49" rotation="90"/>
+  <object id="20" name="arrow_white" gid="370" x="695.667" y="86.8333" width="82" height="49" rotation="90"/>
+  <object id="21" name="arrow_white" gid="370" x="753" y="88.1667" width="82" height="49" rotation="90"/>
+  <object id="22" name="arrow_yellow" gid="371" x="1471.64" y="935.788" width="82" height="49" rotation="-90"/>
+  <object id="23" name="arrow_yellow" gid="371" x="1416" y="936" width="82" height="49" rotation="-90"/>
+  <object id="24" name="arrow_yellow" gid="371" x="1358.5" y="937.5" width="82" height="49" rotation="-90"/>
+ </objectgroup>
+ <objectgroup id="8" name="checkpoints" locked="1">
+  <object id="25" name="checkpoint" x="503.03" y="9.09091" width="633.333" height="239.394">
+   <properties>
+    <property name="value" value="2"/>
+   </properties>
+  </object>
+  <object id="26" name="checkpoint" x="1128.79" y="759.091" width="633.333" height="293.939">
+   <properties>
+    <property name="value" value="3"/>
+   </properties>
+  </object>
+  <object id="27" name="checkpoint" x="240.909" y="840.909" width="633.333" height="239.394">
+   <properties>
+    <property name="value" value="4"/>
+   </properties>
+  </object>
+  <object id="28" name="checkpoint" x="189.394" y="565.151" width="248.485" height="239.394">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="player" locked="1">
+  <object id="29" name="player" x="255" y="732">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="enemy" locked="1">
+  <object id="30" name="enemy" x="383" y="732">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

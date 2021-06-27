@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+  
+    }
+  
+    canvas {
+      width: 100%;
+    }
+  
+    @font-face {
+      font-family: 'Curse-Casual';
+      src: url('./assets/fonts/CurseCasual.ttf');
+    }
+  
+    .fontPreload {
+      font-family: 'Curse-Casual';
+      position: absolute;
+      left: -100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="fontPreload">.</div>
+  <script src="./assets/scripts/phaser.min.js"></script>
+  <script src="./assets/scripts/scenes/Boot.js"></script>
+  <script src="./assets/scripts/classes/loadingBar.js"></script>
+  <script src="./assets/scripts/scenes/Preload.js"></script>
+  <script src="./assets/scripts/scenes/StartScene.js"></script>
+  <script src="./assets/scripts/prefabs/Boom.js"></script>
+  <script src="./assets/scripts/prefabs/MovableObject.js"></script>
+  <script src="./assets/scripts/prefabs/Enemies.js"></script>
+  <script src="./assets/scripts/prefabs/Enemy.js"></script>
+  <script src="./assets/scripts/prefabs/Player.js"></script>
+  <script src="./assets/scripts/prefabs/Fire.js"></script>
+  <script src="./assets/scripts/prefabs/Fires.js"></script>
+  <script src="./assets/scripts/scenes/Game.js"></script>
+  <script src="./assets/scripts/main.js"></script>
+</body>
+</html>

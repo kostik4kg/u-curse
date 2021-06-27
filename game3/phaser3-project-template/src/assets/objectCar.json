@@ -1,0 +1,52 @@
+{"frames": {
+
+"car_black_small_1":
+{
+	"frame": {"x":0,"y":0,"w":40,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":70},
+	"sourceSize": {"w":40,"h":70}
+},
+"car_blue_small_1":
+{
+	"frame": {"x":0,"y":70,"w":40,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":70},
+	"sourceSize": {"w":40,"h":70}
+},
+"car_green_small_1":
+{
+	"frame": {"x":0,"y":140,"w":40,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":70},
+	"sourceSize": {"w":40,"h":70}
+},
+"car_red_small_1":
+{
+	"frame": {"x":0,"y":210,"w":40,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":70},
+	"sourceSize": {"w":40,"h":70}
+},
+"car_yellow_small_1":
+{
+	"frame": {"x":0,"y":280,"w":40,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":70},
+	"sourceSize": {"w":40,"h":70}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "objectCar.png",
+	"format": "RGBA8888",
+	"size": {"w":40,"h":350},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:336d11b3e7af32bbea6e00860fa40c49:2c87bf3a50b40de7ee3a40b7b97b855b:e918a5129f8f790a9e92c957433c35e7$"
+}
+}
